@@ -46,8 +46,15 @@ print(b)
     # Ojo: nos están pidiendo "size" (elementos totales), no "shape". 
 print(a.size == b.size)
 
+    # Otra opción con una built-in function
+print(np.array_equal(a,b))
+
 
 #8. Are you able to add a and b? Why or why not?
+
+# Opción 1: a + b
+# Opción 2: np.add(a, b)
+
 # I was not able to because their shapes are different. 
 
 
@@ -119,26 +126,26 @@ In the end, f should have only the following values: 0, 25, 50, 75, and 100.
 Note: you don't have to use Numpy in this question.
 """
 
-for x in range(2):
-    for y in range(3):        
-        for z in range(5):
+for d1 in range(len(f)):
+    for d2 in range(len(f[d1])):        
+        for d3 in range(len(f[d1, d2])):
            
-            d_value = d[x, y, z] 
+            d_value = d[d1, d2, d3] 
 
             if d_min < d_value < d_mean:
-                f[x, y, z] = 25
+                f[d1, d2, d3]  = 25
 
             elif d_value == d_mean:
-                f[x, y, z] = 50
+                f[d1, d2, d3] = 50
 
             elif d_mean < d_value < d_max:
-                f[x, y, z] = 75
+                f[d1, d2, d3] = 75
 
             elif d_value == d_min:
-                f[x, y, z] = 0
+                f[d1, d2, d3] = 0
 
             elif d_value == d_max:
-                f[x, y, z] = 100
+                f[d1, d2, d3] = 100
 
 """
 #17. Print d and f. Do you have your expected f?
@@ -179,23 +186,23 @@ Again, you don't need Numpy in this question.
 """
 g = np.empty((2, 3, 5), dtype='str')
 
-for x in range(2):
-    for y in range(3):        
-        for z in range(5):
+for d1 in range(len(g)):
+    for d2 in range(len(g[d1])):        
+        for d3 in range(len(g[d1, d2])):
            
-            d_value = d[x, y, z] 
+            d_value = d[d1, d2, d3]  
 
             if d_min < d_value < d_mean:
-                g[x, y, z] = 'B'
+                g[d1, d2, d3] = 'B'
 
             elif d_value == d_mean:
-                g[x, y, z] = 'C'
+                g[d1, d2, d3] = 'C'
 
             elif d_mean < d_value < d_max:
-                g[x, y, z] = 'D'
+                g[d1, d2, d3] = 'D'
 
             elif d_value == d_min:
-                g[x, y, z] = 'A'
+                g[d1, d2, d3] = 'A'
 
             elif d_value == d_max:
-                g[x, y, z] = 'E'
+                g[d1, d2, d3] = 'E'

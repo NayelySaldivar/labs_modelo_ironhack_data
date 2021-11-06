@@ -50,26 +50,27 @@ GROUP BY Author_ID
 ORDER BY Profits DESC
 LIMIT 3;
 
+
 -- Challenge 2
 # El reto anterior se hizo con temporary tables, así que aquí hagámoslo con derived tables (también conocidas como subqueries).
 SELECT 	Author_ID,
         SUM((titles.advance * titleauthor.royaltyper / 100) + agg_royalties) AS Profits
 FROM (
-		SELECT 	Title_ID, 
-				Author_ID,
-				SUM(sales_royalty) AS agg_royalties
-		FROM (
-				SELECT 	titles.title_id AS Title_ID, 
-						authors.au_id as Author_ID,
-						(titles.price * sales.qty * titles.royalty / 100 * titleauthor.royaltyper / 100) AS sales_royalty
-				FROM authors
-				JOIN titleauthor
-					ON authors.au_id = titleauthor.au_id
-				JOIN titles
-					ON titleauthor.title_id = titles.title_id
-				JOIN sales
-					ON titles.title_id = sales.title_id) as royalties_1
-		GROUP BY Title_ID, Author_ID ) as royalties_2
+	SELECT 	Title_ID, 
+			Author_ID,
+			SUM(sales_royalty) AS agg_royalties
+	FROM (
+		SELECT 	titles.title_id AS Title_ID, 
+				authors.au_id as Author_ID,
+				(titles.price * sales.qty * titles.royalty / 100 * titleauthor.royaltyper / 100) AS sales_royalty
+		FROM authors
+		JOIN titleauthor
+			ON authors.au_id = titleauthor.au_id
+		JOIN titles
+			ON titleauthor.title_id = titles.title_id
+		JOIN sales
+			ON titles.title_id = sales.title_id) as royalties_1
+	GROUP BY Title_ID, Author_ID ) as royalties_2
 JOIN titles
 	ON royalties_2.Title_id = titles.title_id
 JOIN titleauthor
@@ -84,21 +85,21 @@ CREATE TABLE most_profiting_authors
 SELECT 	Author_ID AS au_id,
         SUM((titles.advance * titleauthor.royaltyper / 100) + agg_royalties) AS profits
 FROM (
-		SELECT 	Title_ID, 
-				Author_ID,
-				SUM(sales_royalty) AS agg_royalties
-		FROM (
-				SELECT 	titles.title_id AS Title_ID, 
-						authors.au_id as Author_ID,
-						(titles.price * sales.qty * titles.royalty / 100 * titleauthor.royaltyper / 100) AS sales_royalty
-				FROM authors
-				JOIN titleauthor
-					ON authors.au_id = titleauthor.au_id
-				JOIN titles
-					ON titleauthor.title_id = titles.title_id
-				JOIN sales
-					ON titles.title_id = sales.title_id) as royalties_1
-		GROUP BY Title_ID, Author_ID ) as royalties_2
+	SELECT 	Title_ID, 
+			Author_ID,
+			SUM(sales_royalty) AS agg_royalties
+	FROM (
+		SELECT 	titles.title_id AS Title_ID, 
+				authors.au_id as Author_ID,
+				(titles.price * sales.qty * titles.royalty / 100 * titleauthor.royaltyper / 100) AS sales_royalty
+		FROM authors
+		JOIN titleauthor
+			ON authors.au_id = titleauthor.au_id
+		JOIN titles
+			ON titleauthor.title_id = titles.title_id
+		JOIN sales
+			ON titles.title_id = sales.title_id) as royalties_1
+	GROUP BY Title_ID, Author_ID ) as royalties_2
 JOIN titles
 	ON royalties_2.Title_id = titles.title_id
 JOIN titleauthor

@@ -41,6 +41,7 @@ JOIN publishers as pb
         
 # Nuestros queries coinciden en número de filas, por lo que probablemente están bien.
 
+
 -- Challenge 2
 SELECT 	au.au_id AS "AUTHOR ID", 
 		au.au_lname AS "LAST NAME", 
@@ -78,6 +79,7 @@ ORDER BY au.au_id DESC ) as table1
 ;
 
 # Indeed, the number of records equals the number of records in tableauthor
+
 
 -- Challenge 3
 SELECT 	au.au_id AS "AUTHOR ID", 

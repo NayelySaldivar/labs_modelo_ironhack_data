@@ -5,7 +5,7 @@
 USE publications;
 
 
--- Challenge 1
+-- Challenge 1 - Who Have Published What At Where?
 SELECT 	au.au_id AS "AUTHOR ID", 
 		au.au_lname AS "LAST NAME", 
         au.au_fname AS "FIRST NAME",
@@ -46,7 +46,7 @@ FROM (
 # Nuestros queries coinciden en número de filas, por lo que probablemente están bien.
 
 
--- Challenge 2
+-- Challenge 2 - Who Have Published How Many At Where?
 SELECT 	au.au_id AS "AUTHOR ID", 
 		au.au_lname AS "LAST NAME", 
         au.au_fname AS "FIRST NAME",
@@ -93,7 +93,7 @@ FROM titles_per_author
 # Indeed, the number of records equals the number of records in tableauthor
 
 
--- Challenge 3
+-- Challenge 3 - Best Selling Authors
 SELECT 	au.au_id AS "AUTHOR ID", 
 		au.au_lname AS "LAST NAME", 
         au.au_fname AS "FIRST NAME",
@@ -111,7 +111,7 @@ LIMIT 3
 ;
 
 
--- Challenge 4
+-- Challenge 4 - Best Selling Authors Ranking
 SELECT 	au.au_id AS "AUTHOR ID", 
 		au.au_lname AS "LAST NAME", 
         au.au_fname AS "FIRST NAME",

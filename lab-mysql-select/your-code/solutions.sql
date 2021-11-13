@@ -147,15 +147,15 @@ FROM (
 			JOIN titles
 			ON titleauthor.title_id = titles.title_id
 			JOIN sales
-			ON titles.title_id = sales.title_id) as royalties_1
-	GROUP BY Title_ID, Author_ID ) as royalties_2
-    
-	JOIN authors
-	ON royalties_2.Author_ID = authors.au_id
-	JOIN titles
-	ON royalties_2.Title_id = titles.title_id
-	JOIN titleauthor
-	ON royalties_2.Author_ID = titleauthor.au_id
+			ON titles.title_id = sales.title_id) as author_royalties
+	
+    GROUP BY Title_ID, Author_ID ) as author_royalties_agg
+    	JOIN authors
+		ON author_royalties_agg.Author_ID = authors.au_id
+		JOIN titles
+		ON author_royalties_agg.Title_id = titles.title_id
+		JOIN titleauthor
+		ON author_royalties_agg.Author_ID = titleauthor.au_id
     
 GROUP BY Author_ID
 ORDER BY Profits DESC

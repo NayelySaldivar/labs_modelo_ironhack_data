@@ -40,15 +40,33 @@ SELECT 	Author_ID,
         
         # Aquí debajo, el advance representa cuánto se pago de advance por el libro, PERO el combinado de ambos autores.
         # El royaltyper indica qué porcentaje del advance le tocó a cada autor; por esa razón, multiplicamos advance y royaltyper.
-        SUM((titles.advance * titleauthor.royaltyper / 100) + agg_royalties) AS Profits
+        SUM(titles.advance * titleauthor.royaltyper / 100) + SUM(agg_royalties) AS Profits
 FROM author_royalties_agg
 	JOIN titles
 	ON author_royalties_agg.Title_id = titles.title_id
 	JOIN titleauthor
 	ON author_royalties_agg.Author_ID = titleauthor.au_id
+    AND author_royalties_agg.Title_ID = titleauthor.title_id # Hay que unir tanto en author y title, para considerar solo los autores y libros que aparecen en author_royalties_agg
 GROUP BY Author_ID
 ORDER BY Profits DESC
-LIMIT 3;
+;
+
+
+SELECT 	Author_ID,
+        Title_ID,
+        # Aquí debajo, el advance representa cuánto se pago de advance por el libro, PERO el combinado de ambos autores.
+        # El royaltyper indica qué porcentaje del advance le tocó a cada autor; por esa razón, multiplicamos advance y royaltyper.
+        SUM((titles.advance * titleauthor.royaltyper / 100) + (agg_royalties) AS Profits
+FROM author_royalties_agg
+	JOIN titles
+	ON author_royalties_agg.Title_id = titles.title_id
+	JOIN titleauthor
+	ON author_royalties_agg.Author_ID = titleauthor.au_id 
+    AND author_royalties_agg.Title_ID = titleauthor.title_id
+GROUP BY Author_ID
+ORDER BY Profits DESC
+;
+
 
 
 -- Challenge 2
@@ -76,6 +94,7 @@ FROM (
 		ON author_royalties_agg.Title_id = titles.title_id
 		JOIN titleauthor
 		ON author_royalties_agg.Author_ID = titleauthor.au_id
+        AND author_royalties_agg.Title_ID = titleauthor.title_id
 GROUP BY Author_ID
 ORDER BY Profits DESC
 LIMIT 3;
@@ -106,6 +125,7 @@ FROM (
 		ON author_royalties_agg.Title_id = titles.title_id
 		JOIN titleauthor
 		ON author_royalties_agg.Author_ID = titleauthor.au_id
+        AND author_royalties_agg.Title_ID = titleauthor.title_id
 
 GROUP BY Author_ID
 ORDER BY Profits DESC;

@@ -22,7 +22,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [Advanced MySQL](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-advanced-mysql)
 - Mongo DB
 - web scrapping
-- web scrapping deep dive
+- [web scrapping deep dive](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-web-scrapping-deep-dive)
 - ~~parsing api (tiene un error)~~
 - api scavenger
 - rss

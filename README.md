@@ -23,7 +23,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - Mongo DB
 - web scrapping
 - [web scrapping deep dive](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-web-scrapping-deep-dive)
-- ~~parsing api (tiene un error)~~
+- ~~parsing api~~
 - api scavenger
 - rss
 

@@ -16,7 +16,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [data vikings (a.k.a. object-oriented programming)](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-data-vikings)
 - [numpy deep dive](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-numpy-deep-dive)
 - [intro pandas](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-intro-pandas)
-- import export
+- [import export](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-import-export)
 - [MySQL](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-mysql)
 - [MySQL SELECT](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-mysql-select)
 - [Advanced MySQL](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-advanced-mysql)

@@ -26,6 +26,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - ~~parsing api~~
 - api scavenger
 - [rss](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-rss)
+- [data cleaning](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-data-cleaning)
 
 ### Módulo 2
 

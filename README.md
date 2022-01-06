@@ -32,7 +32,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 
 - [Subsetting and descriptive stats](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-subsetting-and-descriptive-stats)
 - [Pandas deep dive](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-pandas-deep-dive)
-
+- [Intro to scipy](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-intro-to-scipy)
 ### Módulo 3
 
 - 

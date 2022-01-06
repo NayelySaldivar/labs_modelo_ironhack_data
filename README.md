@@ -30,7 +30,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 
 ### Módulo 2
 
-- 
+- [Subsetting and descriptive stats](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-subsetting-and-descriptive-stats)
 
 ### Módulo 3
 

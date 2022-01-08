@@ -2,7 +2,7 @@
 
 En este repositorio están todos los labs resueltos del programa de Data Analytics de Ironhack.
 
-### Módulo1
+### Módulo 1
 
 - resolving git conflicts
 - tuple set dict

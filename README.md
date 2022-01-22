@@ -36,6 +36,8 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [Pivot tables and correlation](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-pivot-table-and-correlation)
 - [Discrete Probability Distributions](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-discrete-probability-distribution-)
 - [Continuous Probability Distributions](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-continuous-probability-distribution)
+- [Matplotlib & Seaborn Deep Dive](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-matplotlib-seaborn)
+- [Plotting Multiple Data Series](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-plotting-multiple-data-series)
 
 ### Módulo 3
 

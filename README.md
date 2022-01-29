@@ -42,7 +42,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - Intro to BI and Tableau
 - [Tableau Data Visualization](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-tableau-data-visualization)
 - [Poker Master](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/-lab-poker-master)
-- Two Sample Hypothesis Tests
+- [Two Sample Hypothesis Tests](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-two-sample-hypothesis-tests)
 - [Regression Analysis](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/-lab-regression-analysis)
 
 ### Módulo 3

@@ -38,6 +38,9 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [Continuous Probability Distributions](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-continuous-probability-distribution)
 - [Matplotlib & Seaborn Deep Dive](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-matplotlib-seaborn)
 - [Plotting Multiple Data Series](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-plotting-multiple-data-series)
+- [Storytelling through data visualization](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-storytelling-data-visualization)
+- Intro to BI and Tableau
+- [Tableau Data Visualization](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-tableau-data-visualization)
 
 ### Módulo 3
 

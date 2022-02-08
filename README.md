@@ -44,6 +44,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [Poker Master](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/-lab-poker-master)
 - [Hypothesis testing](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-hypothesis-testing)
 - [Two Sample Hypothesis Tests](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-two-sample-hypothesis-tests)
+- [Correlation test with Scipy](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-correlation-test-with-scipy)
 - [Regression Analysis](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/-lab-regression-analysis)
 
 ### Módulo 3

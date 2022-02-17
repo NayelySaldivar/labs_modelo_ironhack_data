@@ -47,6 +47,8 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [Correlation test with Scipy](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-correlation-test-with-scipy)
 - [Regression Analysis](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/-lab-regression-analysis)
 - [Bayesian Statistics](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-bayesian-statistics)
+- PCA
+- [Time Series](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-time-series)
 
 ### Módulo 3
 

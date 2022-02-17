@@ -49,7 +49,10 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [Bayesian Statistics](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-bayesian-statistics)
 - PCA
 - [Time Series](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-time-series)
-
+- Survival Analysis
+- Recommender System
+- Recommender Systems Deep Dive
+- Network Analysis
 ### Módulo 3
 
 - 

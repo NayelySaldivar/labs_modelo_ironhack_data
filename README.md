@@ -53,9 +53,15 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - Recommender System
 - Recommender Systems Deep Dive
 - Network Analysis
+
 ### Módulo 3
 
-- 
-
-
-
+- Intro to Machine Learning
+- Intro to Scikitlearn
+- Supervised Learning
+- SL Classification
+- SL Model Evaluation
+- Unsupervised Learning w/Scikit
+- Unsupervised Learning
+- UL Deep Dive
+- UL Model Evaluation

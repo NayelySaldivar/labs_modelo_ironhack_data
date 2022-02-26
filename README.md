@@ -59,7 +59,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - Intro to Machine Learning
 - Intro to Scikitlearn
 - Supervised Learning
-- SL Classification
+- [SL Classification](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-supervised-classification)
 - SL Model Evaluation
 - Unsupervised Learning w/Scikit
 - Unsupervised Learning

@@ -6,7 +6,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 
 - resolving git conflicts
 - tuple set dict
-- string operations
+- [string operations](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-string-operations)
 - [list comprehension](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/blob/main/lab-list-comprenhensions/main.ipynb)
 - [advanced regex](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/blob/main/lab-advanced-regex/main.ipynb)
 - [functional programming](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-functional-programming)

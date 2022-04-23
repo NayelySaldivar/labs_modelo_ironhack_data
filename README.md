@@ -6,7 +6,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 
 - resolving git conflicts
 - tuple set dict
-- string operations
+- [string operations](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-string-operations)
 - [list comprehension](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/blob/main/lab-list-comprenhensions/main.ipynb)
 - [advanced regex](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/blob/main/lab-advanced-regex/main.ipynb)
 - [functional programming](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-functional-programming)
@@ -42,12 +42,26 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - Intro to BI and Tableau
 - [Tableau Data Visualization](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-tableau-data-visualization)
 - [Poker Master](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/-lab-poker-master)
+- [Hypothesis testing](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-hypothesis-testing)
 - [Two Sample Hypothesis Tests](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-two-sample-hypothesis-tests)
+- [Correlation test with Scipy](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-correlation-test-with-scipy)
 - [Regression Analysis](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/-lab-regression-analysis)
+- [Bayesian Statistics](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-bayesian-statistics)
+- PCA
+- [Time Series](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-time-series)
+- Survival Analysis
+- Recommender System
+- Recommender Systems Deep Dive
+- Network Analysis
 
 ### Módulo 3
 
-- 
-
-
-
+- Intro to Machine Learning
+- Intro to Scikitlearn
+- Supervised Learning
+- [SL Classification](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-supervised-classification)
+- SL Model Evaluation
+- Unsupervised Learning w/Scikit
+- Unsupervised Learning
+- UL Deep Dive
+- UL Model Evaluation

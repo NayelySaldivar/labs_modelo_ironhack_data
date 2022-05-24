@@ -20,7 +20,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [MySQL](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-mysql)
 - [MySQL SELECT](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-mysql-select)
 - [Advanced MySQL](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-advanced-mysql)
-- Mongo DB
+- [Mongo DB](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/mongo-db)
 - [web scrapping](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-web-scrapping)
 - [web scrapping deep dive](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-web-scrapping-deep-dive)
 - ~~parsing api~~

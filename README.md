@@ -51,7 +51,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [Time Series](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-time-series)
 - Survival Analysis
 - Recommender System
-- Recommender Systems Deep Dive
+- [Recommender Systems Deep Dive](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/blob/main/lab-recommender-deepdive/main.ipynb)
 - Network Analysis
 
 ### Módulo 3

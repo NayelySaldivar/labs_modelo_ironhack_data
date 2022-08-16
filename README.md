@@ -57,7 +57,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 ### Módulo 3
 
 - Intro to Machine Learning
-- [Intro to Scikitlearn](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/blob/main/lab-intro-to-sklearn/main.ipynb]
+- [Intro to Scikitlearn](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/blob/main/lab-intro-to-sklearn/main.ipynb)
 - Supervised Learning
 - [SL Classification](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-supervised-classification)
 - SL Model Evaluation

@@ -23,7 +23,7 @@ En este repositorio están todos los labs resueltos del programa de Data Analyti
 - [Mongo DB](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/mongo-db)
 - [web scrapping](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-web-scrapping)
 - [web scrapping deep dive](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-web-scrapping-deep-dive)
-- ~~parsing api~~
+- [parsing api](https://github.com/NayelySaldivar/labs_modelo_ironhack_data/tree/main/lab-parsing-api)
 - api scavenger
 - [rss](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-rss)
 - [data cleaning](https://github.com/FranciscoGalan/labs_modelo_ironhack_data/tree/main/lab-data-cleaning)
